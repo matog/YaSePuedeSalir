@@ -10,7 +10,6 @@
     <meta name="author" content="Mato">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <style>
-html { font-size: calc(1em + 1vw) }
         body {
                 font-family: 'Fjalla One', sans-serif;
                 line-height: 160%;
@@ -18,7 +17,7 @@ html { font-size: calc(1em + 1vw) }
     
         h1 {
           display: block;
-          font-size: 25vw;
+          font-size: 15vw;
           font-weight: bold;
         }
         h2 {
@@ -26,19 +25,20 @@ html { font-size: calc(1em + 1vw) }
           font-size: 2vw;
           font-weight: bold;
         }
-
-        .responsive {
-          max-width: 800px;
-          width: 90vw;
-        }
-      @media screen and (max-width: 991px) {
-        h1{
-          font-size:90vw;
+        @media screen and (max-width: 600px) {
+          h1 {
+            font-size: 170px;
           }
-        h2{font-size:8vw;
-           line-height: 120%}
-            }
-
+          h2 {
+            font-size: 20px;
+            
+          }
+        }
+        .responsive {
+          width: 80%;
+          max-width: 400px;
+          height: auto;
+        }
     </style>
 </head>
 
