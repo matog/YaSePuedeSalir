@@ -15,7 +15,9 @@ html { font-size: calc(1em + 1vw) }
                 font-family: 'Fjalla One', sans-serif;
                 line-height: 160%;
         }
-    
+   h1, h2, h3, h4, h5, h6 {
+  line-height: 1px;
+} 
         h1 {
           display: block;
           font-size: 25vw;
@@ -71,8 +73,23 @@ html { font-size: calc(1em + 1vw) }
         
             document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
         </script>
-        <p><img src="firma_transparente-02.png" alt="Municipalidad de La Plata" class="responsive"></p>
-    </center>
+ <p>      
+ <picture>
+    <img 
+       alt="Municipalidad de La Plata" 
+       src="firma_02.png" 
+       srcset=" 
+          firma_02.png 602w, 
+          firma_01.png 1007w
+       " 
+       sizes=" 
+          (min-width: 400px) 602px, 
+          100vw
+       " 
+    >
+    </picture>
+    </p>
+</center>
 
 
 </body>
