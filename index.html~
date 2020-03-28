@@ -15,9 +15,9 @@ html { font-size: calc(1em + 1vw) }
                 font-family: 'Fjalla One', sans-serif;
                 line-height: 160%;
         }
-        h1, h2, h3, h4, h5, h6 {
-        line-height: 1px;
-        } 
+   h1, h2, h3, h4, h5, h6 {
+  line-height: 1px;
+} 
         h1 {
           display: block;
           font-size: 25vw;
@@ -31,7 +31,7 @@ html { font-size: calc(1em + 1vw) }
 
         .responsive {
           max-width: 800px;
-          width: 50vw;
+          width: 90vw;
         }
       @media screen and (max-width: 991px) {
         h1{
@@ -86,7 +86,7 @@ html { font-size: calc(1em + 1vw) }
           (min-width: 400px) 602px, 
           100vw
        " 
-    class = "responsive">
+    >
     </picture>
     </p>
 </center>
