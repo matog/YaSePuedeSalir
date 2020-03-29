@@ -1,0 +1,40 @@
+html {
+     font-size: calc(1em + 1vw) 
+}
+ body {
+     font-family: 'Fjalla One', sans-serif;
+     line-height: 160%;
+}
+ h1, h2, h3, h4, h5, h6 {
+     line-height: 1px;
+}
+ h1 {
+     display: block;
+     font-size: 25vw;
+     font-weight: bold;
+     }
+ h2 {
+     display: block;
+     font-size: 2vw;
+     font-weight: bold;
+}
+ img {
+     margin-top: 65vw
+ }
+
+ .responsive {
+     max-width: 500px;
+     width: 50vw;
+     margin-top: 0.2vw;
+}
+ @media screen and (max-width: 991px) {
+     h1{
+         font-size:90vw;
+         margin-top: 50vw;
+    }
+     h2{
+        font-size:8vw;
+         line-height: 120%
+    }
+}
+ 
